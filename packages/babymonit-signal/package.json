@@ -1,0 +1,15 @@
+{
+  "name": "babymonit-signal",
+  "version": "0.0.1",
+  "description": "Signalling server for babymonit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "signalhub listen -p 8080"
+  },
+  "author": "kr1sp1n <krispin@posteo.de> (http://kr1sp1n.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "signalhub": "4.7.4"
+  }
+}

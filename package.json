@@ -1,5 +1,5 @@
 {
-  "name": "babyphone2go",
+  "name": "babymonit",
   "version": "0.0.1",
   "description": "Babyphone as a service.",
   "main": "index.js",
@@ -23,12 +23,14 @@
     "jade": "^1.11.0",
     "mercury": "^14.0.0",
     "normalize.css": "^3.0.3",
+    "signalhub": "4.7.4",
     "style-loader": "^0.13.0"
   },
   "devDependencies": {
     "html-webpack-plugin": "^1.7.0",
     "node-dev": "^2.7.1",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack-dev-server": "^1.14.0",
+    "lerna": "2.0.0-beta.13"
   }
 }

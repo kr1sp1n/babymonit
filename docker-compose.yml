@@ -1,0 +1,7 @@
+version: '2'
+services:
+  babymonit-signal:
+    build:
+      context: ./packages/babymonit-signal
+    ports:
+      - "8080:8080"
